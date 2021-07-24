@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "settings": {
+        "layout": {
+            "contentSize": "1200px",
+            "wideSize": "1900px",
+            "units": ["px", "em", "rem", "%", "vw"]
+        }
+    },
+    "templateParts": [
+        {
+            "name": "header",
+            "area": "header"
+        },
+        {
+            "name": "footer",
+            "area": "footer"
+        }
+    ]
+}
