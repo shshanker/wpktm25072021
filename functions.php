@@ -75,16 +75,3 @@ function rick_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'rick_scripts' );
 
-/**
- * Show '(no title)' in frontend if post has no title to make it selectable
- */
-add_filter(
-	'the_title',
-	function( $title ) {
-		if ( ! is_admin() && empty( $title ) ) {
-			$title = __( '(no title)', 'rick' );
-		}
-
-		return $title;
-	}
-);
