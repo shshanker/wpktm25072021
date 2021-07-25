@@ -46,11 +46,6 @@ if ( ! function_exists( 'rick_setup' ) ) {
 		// Add support for editor styles.
 		add_theme_support( 'editor-styles' );
 
-		// Enqueue editor styles.
-		add_editor_style( array( 
-			'./inc/patterns/block-style.css'
-		) );
-
 		// Add support for responsive embedded content.
 		add_theme_support( 'responsive-embeds' );
 
